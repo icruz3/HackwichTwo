@@ -15,6 +15,14 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func pressMeButtonPressed(_ sender: Any)
+    {
+ print("Hello World")
+    }
+    @IBAction func stopPress(_ sender: Any)
+    {
+        print("stopped")
+    }
+    
 }
 
